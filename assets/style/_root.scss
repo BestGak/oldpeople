@@ -1,0 +1,114 @@
+$--white-text: #ffffff;
+
+$--primary-btn:#0d6973;
+$--hover-color:#9B78D7;
+$--light-btn:#ebe4f7;
+$--light-gray-text:#BCBCBC;
+$--gray-text: #333;
+$--light-gray-text:#4f4f4f;
+$--light-text: #ebebeb;
+$--border-color:#f2f2f2;
+$--table-color:#a2cfb5;
+$--table-row-color:#efefef;
+$--bg-color:#F8F9FB;
+body{
+    
+    // font-family: 'PT Sans';
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.container{
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1170px;
+    width: 100%;
+}
+.mb-m{
+    margin-bottom: 120px;
+    @media screen and (max-width:767px) {
+        margin-bottom: 60px;
+    }
+}
+.mb-s{
+    margin-bottom: 60px;
+    @media screen and (max-width:767px) {
+        margin-bottom: 40px;
+    }
+}
+.padding {
+    padding: 60px 0;
+    @media screen and (max-width: 767px) {
+        padding: 40px 0;
+    }
+}
+h1{
+font-size: 50px;
+font-weight: 500;
+& span{
+    font: inherit;
+}
+@media screen and (max-width:550px) {
+    font-size: 32px;
+}
+}
+h2{
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+    @media screen and (max-width:550px) {
+        font-size: 24px;
+    }
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 202px;
+    width: 100%;
+    text-decoration: none;
+    position: relative;
+    border-radius: 10px;
+    background-color: #0d6973;
+    line-height: 100%;
+    padding: 10px 15px;
+    text-align: center;
+    color: $--white-text;
+    font-weight: 700;
+    transition: .3s linear;
+    &:hover{
+        background-color: #083842;
+    }
+}
+.title-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 35px;
+    & a{
+        display: block;
+        font-size: 13px;
+        color: $--hover-color;
+        line-height: 18px;
+        font-style: normal;
+    }
+    @media  screen and (max-width:767px) {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.p-m{
+    padding: 60px 0;
+    @media screen and (max-width:767px) {
+        padding: 40px 0;
+    }
+}
+h2 , strong {
+    color: #083842;
+}
+h3 {
+    color: #37a6a6;
+}
