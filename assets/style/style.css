@@ -859,8 +859,14 @@ h3 {
 }
 
 .main {
+  min-height: calc(100vh - 168px);
   background: url(../images/ravi-patel-VMGAbeeJTKo-unsplash.jpg) center center/cover no-repeat;
   position: relative;
+}
+@media screen and (max-width: 550px) {
+  .main {
+    min-height: calc(100vh - 171px);
+  }
 }
 .main:before {
   z-index: 0;
