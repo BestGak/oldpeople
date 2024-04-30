@@ -1,6 +1,6 @@
 $--white-text: #ffffff;
 
-$--primary-btn:#0d6973;
+$--primary-btn:#84CEEB;
 $--hover-color:#9B78D7;
 $--light-btn:#ebe4f7;
 $--light-gray-text:#BCBCBC;
@@ -71,7 +71,7 @@ h2{
     text-decoration: none;
     position: relative;
     border-radius: 10px;
-    background-color: #0d6973;
+    background: linear-gradient(95deg, #6c00c9, #5317ab, #84CEEB);
     line-height: 100%;
     padding: 10px 15px;
     text-align: center;
@@ -79,7 +79,7 @@ h2{
     font-weight: 700;
     transition: .3s linear;
     &:hover{
-        background-color: #083842;
+        background: #84CEEB;
     }
 }
 .title-row{
@@ -107,8 +107,8 @@ h2{
     }
 }
 h2 , strong {
-    color: #083842;
+    color: #333;
 }
 h3 {
-    color: #37a6a6;
+    color: #fff;
 }

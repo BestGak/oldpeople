@@ -1,9 +1,14 @@
 .reason{
-    background-color: #d5f2ed;
+    background-color: #5AB9EA;
+    & h2 {
+        color: #fff;
+    }
     &__container{
         font-weight: 300;
         &-table{
             margin-bottom: 10px;
+            font-weight: 500;
+            color: #fff;
             @media screen and (max-width:550px) {
                 overflow: hidden;
                 overflow-x: auto;
@@ -17,9 +22,7 @@
                
                 & tr{
                     display: flex;
-                    &:nth-child(even) {
-                        background-color:$--table-row-color; 
-                    }
+
                     & td,
                     & th{
                         padding: 10px 15px;
@@ -52,7 +55,6 @@
                    
                 }
                 & thead{
-                    background-color: #0d6973;
                     width: auto;
                     color: $--white-text;
                 }
@@ -63,6 +65,7 @@
                 font-size: 19px;
                 margin-bottom: 10px;
                 line-height: 150%;
+                color: #fff;
             }
         }
     }
